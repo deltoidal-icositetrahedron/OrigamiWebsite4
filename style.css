@@ -1,0 +1,51 @@
+
+body {
+    background-color:rgb(255, 235, 189);
+    margin: 0px;
+}
+a:link {
+    color:cyan
+}
+a:visited {
+    color:cyan
+}
+img {
+    border-style: double;
+}
+.origami:hover{
+    transform: scale(1.25);
+    background-color: rgb(255, 170, 70)
+}
+.menu {
+    display: flex;
+    justify-content: space-between;
+    color:rgb(0, 255, 255);
+    background-color:rgb(255, 0, 0);
+    padding: 20px;
+    margin: 0px
+}
+.grid {
+    display:flex;
+    flex-wrap: wrap;
+}
+.grid img {
+    border: 3px solid midnightblue;
+    border-radius: 30px;
+}
+.origami {
+    border-radius: 20px;
+    background-color:orange;
+    text-align: center;
+    width: 300px;
+    padding: 50px;
+    margin: 56px;
+}
+.bodyimg {
+    text-align: center;
+    font-family: Courier;
+    font-size:30px;
+    background:url(Background.png) ;
+}
+ul {
+    list-style-type: none
+}
